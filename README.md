@@ -4,4 +4,4 @@ This algorithm can be found in the article Cantó, J., Curiel, S., and  Martíne
 
 ## How to use
 
-The algorithm for finding global maximum of a multiparameter function is in the file `aga.py`. To test the code with an  model fitting example use the module `sed.py`, together with the data in `data.txt` and `error.txt`.
+The algorithm for finding the global maximum of a multiparameter function is in the file `aga.py`. To test the code with an  model fitting example use the module `sed.py`, together with the data in `data.txt` and `error.txt`.
