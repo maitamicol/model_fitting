@@ -6,10 +6,10 @@ from math import *
 
 def evol(f, dim, n_data, lim):
 	n = dim			  #number of dimensions
-	N0 = 1000         #population
+	N0 = 1000         	  #population
 	N1 = 40    		  #parents
 	N2 = 24    		  #sons
-	p = 0.55     	  #convergency factor
+	p = 0.55     	  	  #convergency factor
 
 	#initial random positions in n-dimension parametric logspace for N0 individuals 
 	pop = np.zeros((n+1, N0))
