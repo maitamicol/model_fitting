@@ -31,8 +31,8 @@ nu0 = c / 7e-3   #characteristic frequency
 #data
 data = np.genfromtxt('data.txt', dtype=float)				 #data points (n_data x (freq.(GHz), flux(mJy)))
 error = np.genfromtxt('error.txt', dtype=float)				 #n_data x (upper limit, lower limit)
-std = (error[:,0]-error[:,1])/2                              #standard deviation
-lim = np.array([[-2., 1.],[-3., 1.],[-2., 1.],[-2., 1.],     #intervals in parametric logspace
+std = (error[:,0]-error[:,1])/2                              		 #standard deviation
+lim = np.array([[-2., 1.],[-3., 1.],[-2., 1.],[-2., 1.],     		 #intervals in parametric logspace
 	[-1., 1.],[1., 3.],[-5., -2.],[-2., 1.],[-2., 1.],[1., 3.]])
 n_data = len(data[:,0])
 
